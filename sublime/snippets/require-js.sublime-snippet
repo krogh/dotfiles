@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+ <![CDATA[define(['${1:file}'], function(${2:var}) {
+	 ${0:$TM_SELECTED_TEXT}
+ });]]>
+	 </content>
+	 <tabTrigger>def</tabTrigger>
+ 	<scope>source.js</scope>
+ 	<description>Require define</description>
+</snippet>
