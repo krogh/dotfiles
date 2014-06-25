@@ -40,6 +40,10 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 PROMPT='%2~ $(git_prompt_info)%{$reset_color%}%B»%b '
 
-export PATH=:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/mysql-5.6.12-osx10.7-x86_64/bin/:/usr/local/bin:/usr/X11/bin:/Users/michael/bin
-export PATH="/Users/michael/.rbenv/bin:$PATH"
+export LANG=en_US.UTF-8
+
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/mysql-5.6.17-osx10.7-x86_64/bin/:/usr/X11/bin:/Users/michael/bin
+export PATH=/Users/michael/.rbenv/bin:$PATH
+export PATH=$PATH:/Users/michael/Applications/jazz/scmtools/eclipse
+export DYLD_LIBRARY_PATH=/usr/local/mysql/lib:$DYLD_LIBRARY_PATH
 eval "$(rbenv init -)"
